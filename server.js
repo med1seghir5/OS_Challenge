@@ -3,7 +3,6 @@ import path from 'path';
 import os from 'os';
 import { fileURLToPath } from 'url';
 
-// Recréer __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
